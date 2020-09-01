@@ -1,7 +1,7 @@
-# Week 2 Assignment 2
+# Week 2 Assignment 3
 
-This assignment is meant to let you practice with conditional blocks (i.e. if statements). One of the common uses of conditional blocks is to check the consistency of input values. Often we design functions or programs to only work on specific types or values of input and we want to avoid the program to return random results or to get stuck when the input is not correct.
+In this assignment we will play darts in the cartesian plane. We will randomly draw the x and y coordinates of a point in the square of side 2 centered on the origin, i.e. e will use the uniform() function from the random module to draw two random numbers from \[-1,1). If the point falls within the unit circle centered on the origin (i.e. the circle for which <img src="https://latex.codecogs.com/gif.latex?x^2&plus;y^2\le1" title="x^2+y^2\le1" />) we win. 
 
-TASK: Write a program that, given an input number, it computes its natural logarithm using the numpy log() function. The program should print a clear message if the input number is not an allowed value of the log() function. 
+TASK: Write a program that draws the coordinates of a random point in the xy plane and print out "You win :)"/"You loose :(" if the point is/is not within the unit circle. 
 
-EXPECTED OUTCOME: When called with an input of e, the code should return 1. When called with a value smaller or equal to 0, the code should return a message "The value you entered is not a valid input for the log() function, choose a number greater than 0".
+EXPECTED OUTCOME: Should you win or loose more often? Can you guess what fraction of times you win?
