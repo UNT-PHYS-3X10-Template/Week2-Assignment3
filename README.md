@@ -1,4 +1,4 @@
-# Week 2 Assignment 3
+# Conditionals and random numbers
 
 In this assignment we will play darts in the cartesian plane. We will randomly draw the x and y coordinates of a point in the square of side 2 centered on the origin, i.e. e will use the uniform() function from the random submodule of numpy to draw two random numbers in the \[-1,1) interval. If the point falls within the unit circle centered on the origin (i.e. the circle for which <img src="https://latex.codecogs.com/gif.latex?x^2&plus;y^2\le1" title="x^2+y^2\le1" />) we win. 
 
